@@ -1,0 +1,44 @@
+#upload-zone {
+  width: 80vw;
+  height: 40vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dz-success-mark,
+.dz-progress {
+  display: none;
+}
+
+#proceed-btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  padding: 1em 2em;
+}

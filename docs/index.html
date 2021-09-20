@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Editor</title>
+    
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"
+      defer
+    ></script>
+    <script type="module" crossorigin src="./assets/index.10cbfcd5.js"></script>
+    <link rel="modulepreload" href="./assets/vendor.7dd49597.js">
+    <link rel="stylesheet" href="./assets/index.b7c96124.css">
+  </head>
+
+  <body>
+    <section id="preview">
+      <form id="upload-zone" method="post" action="/upload" class="dropzone">
+        <div class="fallback">
+          <input name="file" type="file" multiple />
+        </div>
+      </form>
+      <button id="proceed-btn">Proceed</button>
+    </section>
+
+    <section id="edit" hidden>
+      <div id="app">
+        <img id="image" src="#" />
+      </div>
+      <button id="download">Download</button>
+    </section>
+
+    
+  </body>
+</html>
